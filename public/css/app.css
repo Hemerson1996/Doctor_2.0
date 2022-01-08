@@ -1,0 +1,32 @@
+#nav-top{
+    background: #2a3042;
+}
+#nav-top>li>a{
+    color: white;
+}
+
+#nav-sub{
+    background: #fefefe;
+    box-shadow: 1px 5px 20px #b6bec2;
+}
+#nav-sub>ul>li>a>i{
+    font-size: 12px;
+    padding-right:8px ;
+}
+#nav-sub>ul>li>a{
+    color: #2a3042;
+}
+
+#breadcrumb>ol>li>a{
+    color: #636b6f;
+    text-decoration: none;
+}
+.table>tbody>tr>td>form>a{
+    font-size: 10px;
+}
+.table>tbody>tr>td>form>button{
+    font-size: 10px;
+}
+.card{
+    box-shadow: 1px 2px 20px #b6bec2;
+}

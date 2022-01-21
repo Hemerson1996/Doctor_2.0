@@ -14,6 +14,9 @@
     <a href="{{route('Admin.doctor.index')}}" class="btn btn-primary mb-4 btn-sm"><i class="fas fa-long-arrow-alt-left"></i> Back to Doctor List</a>
     <form action="{{route('Admin.doctor.store')}}" method="POST" enctype="multipart/form-data">
         @csrf
+        @foreach ($errors->all() as $error)
+            <li>{{ $error }}</li>
+        @endforeach
         <div class="card">
             <div class="card-body">
                 <b class="border-bottom">Basic Information</b>

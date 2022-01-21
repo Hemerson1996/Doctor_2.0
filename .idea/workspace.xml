@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fad3ce13-c6e8-4caa-9f7d-cacf710b5e0b" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="fad3ce13-c6e8-4caa-9f7d-cacf710b5e0b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/Admin/Patients/patient-creat.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Admin/Patients/patient-edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Admin/Patients/patient-list.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Admin/Patients/patient-show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Doctor_2.0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Doctor_2.0.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Admin/Doctor/Doctors.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Doctor/Doctors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Doctor/DoctorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Doctor/DoctorController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Admin/Doctors/creat.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin/Doctors/creat.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Admin/Menu/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin/Menu/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,76 +22,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/Admin/Doctors/doctor_show.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="140" selection-start-line="19" selection-start-column="140" selection-end-line="19" selection-end-column="140" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/Admin/Doctors/doctor-edit.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
-              <caret line="88" column="109" selection-start-line="88" selection-start-column="109" selection-end-line="88" selection-end-column="109" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2022_01_05_212928_create_avatars_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Admin/Doctor/Doctors.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Doctor/DoctorController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
-              <folding>
-                <element signature="e#47#75#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2022_01_05_195437_create_weeks_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="50" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/Admin/Doctors/creat.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="87" column="113" selection-start-line="87" selection-start-column="113" selection-end-line="87" selection-end-column="113" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -88,12 +31,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Admin/Doctor/Doctor.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/database/migrations/2022_01_05_191338_create_doctors_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2022_01_05_195437_create_weeks_table.php" />
         <option value="$PROJECT_DIR$/app/Admin/Doctor/Week.php" />
@@ -101,13 +46,23 @@
         <option value="$PROJECT_DIR$/resources/css/app.css" />
         <option value="$PROJECT_DIR$/resources/views/Admin/Doctors/list.blade.php" />
         <option value="$PROJECT_DIR$/public/css/app.css" />
-        <option value="$PROJECT_DIR$/resources/views/Admin/Menu/menu.blade.php" />
-        <option value="$PROJECT_DIR$/app/Admin/Doctor/Doctors.php" />
         <option value="$PROJECT_DIR$/database/migrations/2022_01_05_212928_create_avatars_table.php" />
         <option value="$PROJECT_DIR$/resources/views/Admin/Doctors/doctor-edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/Admin/Doctors/creat.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Doctor/DoctorController.php" />
         <option value="$PROJECT_DIR$/resources/views/Admin/Doctors/doctor_show.blade.php" />
+        <option value="$PROJECT_DIR$/app/Admin/Doctor/Doctors.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Doctor/DoctorController.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin/Doctors/creat.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2022_01_19_173952_create_patient_medicals_table.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Admin/Patients/PatientMedical.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2022_01_19_173027_create_patient_basics_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin/Patients/patient-creat.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2022_01_19_174024_create_patient_avatars_table.php" />
+        <option value="$PROJECT_DIR$/app/Admin/Patients/PatientBasic.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin/Menu/menu.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Patients/PatientsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin/Patients/patient-list.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin/Patients/patient-show.blade.php" />
       </list>
     </option>
   </component>
@@ -220,16 +175,18 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="1548" />
-    <option name="height" value="1039" />
+    <option name="x" value="468" />
+    <option name="y" value="-1058" />
+    <option name="width" value="1696" />
+    <option name="height" value="1066" />
   </component>
+  <component name="ProjectId" id="2410u7j1ZSe3jaYGcz6vKBOT5Q0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,37 +197,11 @@
             <path>
               <item name="Doctor_2.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="Doctor_2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Doctor_2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Doctor_2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Doctor_2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Doctor_2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Doctor_2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Doctor_2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Doctor_2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Doctor_2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Doctor_2.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="Doctor_2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="img-avatar-padrao" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -278,12 +209,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/storage/app/public/img-avatar-padrao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/Admin/Patients" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -294,9 +231,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projetos\Doctor_2.0\resources\views\Admin\Patients" />
       <recent name="E:\Projetos\Doctor_2.0\storage\app\public\img-avatar-padrao" />
       <recent name="E:\Projetos\Doctor_2.0\storage\app\public\img_avatar-padrao" />
       <recent name="E:\Projetos\Doctor_2.0\resources\views\Admin\Doctors" />
@@ -306,24 +245,13 @@
       <recent name="E:\Projetos\Doctor_2.0\app\Admin" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -337,18 +265,24 @@
       <workItem from="1641409805167" duration="5264000" />
       <workItem from="1641453227315" duration="20949000" />
       <workItem from="1641582951608" duration="8607000" />
-      <workItem from="1641642525592" duration="13912000" />
+      <workItem from="1641642525592" duration="14361000" />
+      <workItem from="1641666754178" duration="3473000" />
+      <workItem from="1642609313714" duration="9232000" />
+      <workItem from="1642688288884" duration="6251000" />
+      <workItem from="1642781341973" duration="103000" />
+      <workItem from="1642781541075" duration="398000" />
+      <workItem from="1642783019712" duration="19000" />
+      <workItem from="1642784461891" duration="3714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48732000" />
+    <option name="totallyTimeSpent" value="68638000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1048" extended-state="6" />
-    <editor active="true" />
+    <frame x="468" y="-1058" width="1696" height="1066" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18084261" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12591687" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -371,20 +305,13 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Admin/Doctor/Week.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -402,13 +329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Admin/Doctors/list.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -416,55 +336,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Admin/Menu/menu.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="n#li#1;n#ul#0;n#nav#1;n#!!top" />
-            <element signature="n#a#0;n#li#2;n#ul#0;n#nav#1;n#!!top" />
-            <element signature="n#ul#0;n#li#2;n#ul#0;n#nav#1;n#!!top" />
-            <element signature="n#li#3;n#ul#0;n#nav#1;n#!!top" />
-            <element signature="n#a#0;n#li#4;n#ul#0;n#nav#1;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/public/avatar_doctors/z22CV8YiphOtdE9XDvx0mDW5Fe2oh1ARr1Nvy8MO.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/app/public/avatar_doctors/z22CV8YiphOtdE9XDvx0mDW5Fe2oh1ARr1Nvy8MO.jpg" />
     <entry file="file://$PROJECT_DIR$/resources/views/Admin/Dashboard/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Admin/Doctors/doctor-edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="88" column="109" selection-start-line="88" selection-start-column="109" selection-end-line="88" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2022_01_05_195437_create_weeks_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Admin/Doctors/creat.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="87" column="113" selection-start-line="87" selection-start-column="113" selection-end-line="87" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Admin/Doctor/Doctors.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -475,10 +351,133 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin/Doctors/doctor-edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="824">
+          <caret line="88" column="109" selection-start-line="88" selection-start-column="109" selection-end-line="88" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Admin/Doctor/Week.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="69" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Admin/Doctor/Avatar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin/Doctors/creat.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Admin/Patients/PatientMedical.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="107" selection-start-line="8" selection-start-column="107" selection-end-line="8" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2022_01_19_173027_create_patient_basics_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2022_01_05_195437_create_weeks_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Admin/Doctor/Doctors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2022_01_19_173952_create_patient_medicals_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" selection-start-line="27" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2022_01_19_174024_create_patient_avatars_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin/Patients/patient-creat.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="98" selection-start-line="60" selection-start-column="90" selection-end-line="60" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin/Menu/menu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/app/public/avatar_patient/JXqTPgSUzBgbX6qZEeewp3ne4qm1ok0VRiUTR9i6.jpg" />
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin/Patients/patient-list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="37" lean-forward="true" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Admin/Patients/PatientBasic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Patients/PatientsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="86" column="67" selection-start-line="86" selection-start-column="67" selection-end-line="86" selection-end-column="67" />
+          <folding>
+            <element signature="e#49#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin/Patients/patient-show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Doctor/DoctorController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
+        <state relative-caret-position="2720">
+          <caret line="167" column="7" selection-start-line="167" selection-start-column="7" selection-end-line="168" selection-end-column="55" />
           <folding>
             <element signature="e#47#75#0#PHP" expanded="true" />
           </folding>
@@ -487,8 +486,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Admin/Doctors/doctor_show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="140" selection-start-line="19" selection-start-column="140" selection-end-line="19" selection-end-column="140" />
+        <state relative-caret-position="731">
+          <caret line="58" column="32" selection-start-line="33" selection-start-column="24" selection-end-line="58" selection-end-column="32" />
         </state>
       </provider>
     </entry>

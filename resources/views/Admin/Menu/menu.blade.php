@@ -44,8 +44,8 @@
                 Patients
             </a>
             <ul class="dropdown-menu">
-                <li><a href="" class="dropdown-item">List of Patients</a></li>
-                <li><a href="" class="dropdown-item">Add New Patients</a></li>
+                <li><a href="{{route('Admin.patient.index')}}" class="dropdown-item">List of Patients</a></li>
+                <li><a href="{{route('Admin.patient.create')}}" class="dropdown-item">Add New Patients</a></li>
             </ul>
         </li>
         <li class="nav-item dropdown">

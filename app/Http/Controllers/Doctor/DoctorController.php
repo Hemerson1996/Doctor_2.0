@@ -6,6 +6,8 @@ use App\Admin\Doctor\Avatar;
 use App\Admin\Doctor\Doctors;
 use App\Admin\Doctor\Week;
 use App\Http\Controllers\Controller;
+use Faker\Core\File;
+use Illuminate\Auth\Events\Validated;
 use Illuminate\Http\Request;
 use \Illuminate\Support\Facades\Storage;
 
@@ -40,7 +42,11 @@ class DoctorController extends Controller
      */
     public function store(Request $request)
     {
-        
+
+        $request->validate([
+            'first_name' => 'required',
+
+        ]);
         $doctor = new Doctors();
         $doctor ->first_name = $request->first_name;
         $doctor ->last_name = $request->last_name;
@@ -113,7 +119,7 @@ class DoctorController extends Controller
     public function update(Request $request, $id)
     {
 
-        /*$doctor = Doctors::find($id);
+        $doctor = Doctors::find($id);
         $doctor ->first_name = $request->first_name;
         $doctor ->last_name = $request->last_name;
         $doctor ->email = $request->email;
@@ -125,7 +131,7 @@ class DoctorController extends Controller
         $doctor ->time_slots = $request->time_slots;
         $doctor ->from_time = $request->from_time;
         $doctor ->from_to = $request->from_to;
-        $doctor->save();*/
+        $doctor->save();
 
         Week::where('doctors_id',$id)->update([
             'sun' => $request->sun,
@@ -156,6 +162,9 @@ class DoctorController extends Controller
     public function destroy($id)
     {
         $doctor = Doctors::find($id);
+        if(!empty($doctor->AvatarDoctor->img_avatar)|| $doctor->AvatarDoctor->img_avatar <> null ){
+            Storage::delete($doctor->AvatarDoctor->img_avatar);
+        }
         $doctor->delete();
         return redirect()->route('Admin.doctor.index');
     }

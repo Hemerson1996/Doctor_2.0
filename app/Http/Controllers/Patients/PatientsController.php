@@ -118,6 +118,27 @@ class PatientsController extends Controller
         $patient->address = $request->address;
         $patient->save();
 
+        PatientMedical::where('patient_basics_id',$patient->id)->update([
+            'height' => $request->height,
+            'weight' => $request->weight,
+            'blood' => $request->blood,
+            'blood_pressure' => $request->blood_pressure,
+            'pulse' => $request->pulse,
+            'respiration' => $request->respiration,
+            'allergy' => $request->allergy,
+            'diet' => $request->diet
+        ]);
+
+        $img = $request->file('img_avatar');
+        if(!empty($img) || !$img == null){
+            Storage::delete($patient->PatientAvatar->img_avatar);
+            PatientAvatar::where('patient_basics_id',$patient->id)->update([
+            'img_avatar' => $request->file('img_avatar')->store('public/avatar_patient'),
+        ]);
+    }
+
+        return redirect()->back();
+
     }
 
     /**

@@ -73,7 +73,7 @@ class DoctorController extends Controller
         $img = $request->file('img_avatar');
         $avatar = new Avatar();
         if (!empty($img)){
-            $avatar->img_avatar = $request->file('img_avatar')->store('public/avatar_doctors');
+            $avatar->img_avatar = $request->file('img_avatar')->store('public/ADMIN/avatar_doctors');
 
         }else{
             $avatar->img_avatar = null;
@@ -146,7 +146,7 @@ class DoctorController extends Controller
         $img = $request->file('img_avatar');
         if (!empty($img) || !$img == null){
             Avatar::where('doctors_id',$id)->update([
-                "img_avatar" => $request->file('img_avatar')->store('public/avatar_doctors')
+                "img_avatar" => $request->file('img_avatar')->store('public/ADMIN/avatar_doctors')
             ]);
         }
 

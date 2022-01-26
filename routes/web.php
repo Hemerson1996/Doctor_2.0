@@ -19,5 +19,6 @@ Route::get('/', function () {
 Route::prefix("admin")->name('Admin.')->group(function (){
     Route::resource('doctor','Doctor\\DoctorController');
     Route::resource('patient','Patients\\PatientsController');
+    Route::resource('receptionist','Receptionist\\ReceptionistController');
 });
 

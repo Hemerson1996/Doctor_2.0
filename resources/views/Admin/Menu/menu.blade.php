@@ -54,8 +54,9 @@
                 Receptionist
             </a>
             <ul class="dropdown-menu">
-                <li><a href="" class="dropdown-item">List of Receptionist</a></li>
-                <li><a href="" class="dropdown-item">Add New Receptionist</a></li>
+                <li><a href="{{route('Admin.receptionist.index')}}" class="dropdown-item">List of Receptionist</a></li>
+                <li><a href="{{route('Admin.receptionist.create')}}" class="dropdown-item">Add New Receptionist</a></li>
+
             </ul>
         </li>
         <li class="nav-item">

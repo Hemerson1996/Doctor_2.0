@@ -64,7 +64,7 @@ class PatientsController extends Controller
         $img = $request->file('img_avatar');
         $avatar = new PatientAvatar();
         if (!empty($img)){
-            $avatar->img_avatar = $request->file('img_avatar')->store('public/avatar_patient');
+            $avatar->img_avatar = $request->file('img_avatar')->store('public/ADMIN/avatar_patient');
 
         }else{
             $avatar->img_avatar = null;
@@ -133,7 +133,7 @@ class PatientsController extends Controller
         if(!empty($img) || !$img == null){
             Storage::delete($patient->PatientAvatar->img_avatar);
             PatientAvatar::where('patient_basics_id',$patient->id)->update([
-            'img_avatar' => $request->file('img_avatar')->store('public/avatar_patient'),
+            'img_avatar' => $request->file('img_avatar')->store('public/ADMIN/avatar_patient'),
         ]);
     }
 

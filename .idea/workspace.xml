@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fad3ce13-c6e8-4caa-9f7d-cacf710b5e0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin/Patients/patient-creat.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin/Patients/patient-edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin/Patients/patient-list.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin/Patients/patient-show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Doctor_2.0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Doctor_2.0.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/Doctor/Doctors.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Doctor/Doctors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Admin/Receptionist/ReceptionistBasic.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Receptionist/ReceptionistBasic.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Doctor/DoctorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Doctor/DoctorController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Admin/Doctors/creat.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin/Doctors/creat.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Patients/PatientsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Patients/PatientsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_01_23_190223_create_receptionist_basics_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2022_01_23_190223_create_receptionist_basics_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/Admin/Menu/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin/Menu/menu.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -217,10 +212,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/Admin/Patients" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/Admin" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -235,6 +232,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projetos\Doctor_2.0\resources\views\Admin" />
       <recent name="E:\Projetos\Doctor_2.0\resources\views\Admin\Patients" />
       <recent name="E:\Projetos\Doctor_2.0\storage\app\public\img-avatar-padrao" />
       <recent name="E:\Projetos\Doctor_2.0\storage\app\public\img_avatar-padrao" />
@@ -273,6 +271,10 @@
       <workItem from="1642781541075" duration="398000" />
       <workItem from="1642783019712" duration="19000" />
       <workItem from="1642784461891" duration="3714000" />
+      <workItem from="1643214882554" duration="347000" />
+      <workItem from="1643215395207" duration="79000" />
+      <workItem from="1643215634472" duration="2041000" />
+      <workItem from="1643218226203" duration="5113000" />
     </task>
     <servers />
   </component>

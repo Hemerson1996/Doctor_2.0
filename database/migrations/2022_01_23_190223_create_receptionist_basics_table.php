@@ -15,7 +15,13 @@ class CreateReceptionistBasicsTable extends Migration
     {
         Schema::create('receptionist_basics', function (Blueprint $table) {
             $table->id();
+            $table->string('first_name');
+            $table->string('last_name');
+            $table->string('email');
+            $table->string('number');
+            $table->unsignedBigInteger('doctors_id');
             $table->timestamps();
+            $table->foreign('doctors_id')->references('id')->on('doctors')->onDelete('cascade');
         });
     }
 

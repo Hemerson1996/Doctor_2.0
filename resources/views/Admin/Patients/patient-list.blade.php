@@ -37,7 +37,7 @@
                                 {{method_field('DELETE')}}
                                 <input type="hidden" value="{{$patient->id}}">
                                 <a href="{{route('Admin.patient.show',[$patient->id])}}" class="btn btn-primary btn-sm rounded-circle"><i class="far fa-eye"></i></a>
-                                <a href="{{route('Admin.patient.update',[$patient->id])}}" class="btn btn-primary btn-sm rounded-circle"><i class="fas fa-pen"></i></a>
+                                <a href="{{route('Admin.patient.edit',[$patient->id])}}" class="btn btn-primary btn-sm rounded-circle"><i class="fas fa-pen"></i></a>
                                 <button  class="btn btn-sm rounded-circle btn-primary" type="submit"><i class="fas fa-trash-alt"></i></button>
 
                             </form>

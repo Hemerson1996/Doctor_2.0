@@ -6,6 +6,7 @@ use App\Admin\Doctor\Avatar;
 use App\Admin\Doctor\Doctors;
 use App\Admin\Doctor\Week;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\DoctorRequest;
 use Faker\Core\File;
 use Illuminate\Auth\Events\Validated;
 use Illuminate\Http\Request;
@@ -45,9 +46,19 @@ class DoctorController extends Controller
 
         $request->validate([
             'first_name' => 'required',
-
+            'last_name' =>'required',
+            'email' => 'required',
+            'number' => 'required',
+            'title' => 'required',
+            'degree' => 'required',
+            'experience' => 'required',
+            'fess' => 'required',
+            'time_slots' => 'required',
+            'from_time' => 'required',
+            'from_to' => 'required',
         ]);
-        $doctor = new Doctors();
+        dd($request);
+        /*$doctor = new Doctors();
         $doctor ->first_name = $request->first_name;
         $doctor ->last_name = $request->last_name;
         $doctor ->email = $request->email;
@@ -83,7 +94,7 @@ class DoctorController extends Controller
 
         return redirect()->route('Admin.doctor.index');
 
-    }
+    */}
 
     /**
      * Display the specified resource.
@@ -116,9 +127,9 @@ class DoctorController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(DoctorRequest $request, $id)
     {
-
+        if(Doctors::where('id',$id)->first()){
         $doctor = Doctors::find($id);
         $doctor ->first_name = $request->first_name;
         $doctor ->last_name = $request->last_name;
@@ -149,6 +160,7 @@ class DoctorController extends Controller
                 "img_avatar" => $request->file('img_avatar')->store('public/ADMIN/avatar_doctors')
             ]);
         }
+    }
 
         return redirect()->route('Admin.doctor.index');
     }
